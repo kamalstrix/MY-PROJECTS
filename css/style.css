@@ -518,6 +518,7 @@ ul.win li a:hover::after {
 .col-md-6.map img {
 	width: 100%;
 	height: 550px;
+	border-radius: 0 20px 0 0;
 }
 .col-md-6.area {
 	padding-top: 70px;
