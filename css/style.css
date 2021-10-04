@@ -647,3 +647,14 @@ ul.win li a:hover::after {
 .col-md-6.area p {
 	color: #636363;
 }
+
+
+.main-11 {
+	width: 100%;
+}
+.col-md-3 img {
+	width: 100%;
+}
+.col-md-3 {
+	padding-left: 0;
+}
