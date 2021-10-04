@@ -1,3 +1,56 @@
+/* @font-face {
+    font-family: 'Ubuntu';
+    src: url('../Ubuntu-Bold.eot');
+    src: local('Ubuntu Bold'), local('Ubuntu-Bold'),
+        url('../Ubuntu-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../Ubuntu-Bold.woff2') format('woff2'),
+        url('../Ubuntu-Bold.woff') format('woff'),
+        url('../Ubuntu-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../font/Ubuntu-Bold.eot');
+    src: local('Ubuntu Light'), local('Ubuntu-Light'),
+        url('../font/Ubuntu-Bold.eot') format('embedded-opentype'),
+        url('../font/Ubuntu-Bold.eot') format('woff2'),
+        url('../font/Ubuntu-Bold.eot') format('woff'),
+        url('../font/Ubuntu-Bold.eot') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+} */
+
+
+
+
+
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../Ubuntu-Regular.eot');
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'),
+        url('../Ubuntu-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../Ubuntu-Regular.woff2') format('woff2'),
+        url('../Ubuntu-Regular.woff') format('woff'),
+        url('../Ubuntu-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+	font-family: 'Ubuntu' !important;
+}
+
+
 .main-1 .row {
 	display: flex;
 	justify-content: space-between;
@@ -518,6 +571,7 @@ ul.win li a:hover::after {
 }
 .client h1 {
 	text-align: center;
+	color: #222222;
 }
 .col-md-6.map img {
 	width: 100%;
@@ -683,7 +737,7 @@ ul.win li a:hover::after {
 }
 #fname {
 	width: 49%;
-	padding: 4px 5px;
+	padding: 7px 5px;
 	border-radius: 5px;
 	border: none;
 }
@@ -693,10 +747,65 @@ ul.win li a:hover::after {
 }
 input {
 	width: 99%;
-	padding: 4px 5px;
+	padding: 7px 5px;
 	border-radius: 5px;
+	
 }
-.submit {
+.sub {
 	width: 100%;
 	margin-top: 10px;
+}
+.bins p {
+	color: white;
+	font-size: 13px;
+}
+.quicklinks h3 {
+	color: #ea0a2a;
+}
+.endservice h3 {
+	color: #ea0a2a;
+}
+.stayin h3 {
+	color: #ea0a2a;
+}
+ul.endnav {
+	padding-left: 0;
+}
+.quicklinks h3 {
+	padding-left: 40px;
+}
+ul.endnav li a:hover {
+	text-decoration: none;
+	color: #ea0a2a;
+}
+ul.endnav li a {
+	color: white;
+	font-size: 15px;
+}
+ul.quick li a:hover {
+	color: #ea0a2a;
+	text-decoration: none;
+}
+.sub input {
+	background: red;
+	color: white;
+}
+ul.quick li a {
+	color: white;
+	font-size: 15px;
+}
+ul.quick li a:hover {
+	text-decoration: none;
+
+}
+.main-11 .row {
+	display: flex;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.endnav span {
+	color: red;
+}
+.quick span {
+	color: red;
 }
