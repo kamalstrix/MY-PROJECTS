@@ -438,9 +438,7 @@ ul.win li a:hover::after {
 	justify-content: space-between;
 }
 
-.plan-center {
-	display: flex;
-}
+
 .plan-center {
 	display: flex;
 	background: #222222;
@@ -474,8 +472,8 @@ ul.win li a:hover::after {
 }
 
 
-.spacing h2 {
-	font-size: 17px;
+.plan-center h2 {
+	font-size: 23px;
 	color: white;
 }
 .spacing p {
@@ -493,11 +491,13 @@ ul.win li a:hover::after {
 	padding-top: 35px;
 	border-radius: 0 0 10px 10px;
 }
-.spacing h4 {
+.plan-center h4 {
 	color: white;
+	font-size: 15px;
 }
 .plan-center-1 h2 {
 	color: #ea0a2a;
+	font-size: 15px;
 }
 .plan-center-1 h4 {
 	color: #224189;
@@ -519,9 +519,14 @@ ul.win li a:hover::after {
 	width: 100%;
 	height: 550px;
 	border-radius: 0 20px 0 0;
+	object-fit: cover;
 }
 .col-md-6.area {
 	padding-top: 70px;
+}
+.main-10 {
+	width: 100%;
+	margin-top: 50px;
 }
 .main-10 .container-fluid {
 	width: 100%;
