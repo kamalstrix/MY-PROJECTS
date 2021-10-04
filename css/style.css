@@ -372,7 +372,9 @@ ul.nav li a {
 	color: #224189;
 	left: -35px;
 }
-
+.slick-inner {
+	padding-left: 15px;
+}
 .main-6 {
 	width: 100%;
 	margin-top: 75px;
@@ -419,12 +421,14 @@ ul.win li a:hover::after {
 	top: 10px;
 	color: #ea0a2a;
 }
+
 .main-7 .row {
 	display: flex;
 	justify-content: center;
 }
 .main-7 {
 	margin-top: 150px;
+	width: 100%;
 }
 .plan {
 	width: 24%;
@@ -594,18 +598,22 @@ ul.win li a:hover::after {
 .col-md-9.time h6 {
 	margin: 0;
 	color: #222222;
+	font-weight: 501;
 }
 .col-md-9.king h6 {
 	margin: 0;
 	color: #222222;
+	font-weight: 501;
 }
 .col-md-9.call h6 {
 	margin: 0;
 	color: #222222;
+	font-weight: 501;
 }
 .col-md-9.email h6 {
 	margin: 0;
 	color: #222222;
+	font-weight: 501;
 }
 .col-md-6.area h1 {
 	font-size: 36px;
