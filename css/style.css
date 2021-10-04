@@ -521,3 +521,6 @@ ul.win li a:hover::after {
 	padding-right: 0;
 	padding-left: 0;
 }
+.navigation {
+	margin-top: 20px;
+}
