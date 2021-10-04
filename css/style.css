@@ -261,7 +261,7 @@ ul.nav li a {
 }
 .col-md-8.center {
 	position: absolute;
-	top: 400px;
+	top: 447px;
 	padding-left: 110px;
 }
 .col-md-6.left h1 {
@@ -651,10 +651,52 @@ ul.win li a:hover::after {
 
 .main-11 {
 	width: 100%;
+	background-color: #222222;
 }
 .col-md-3 img {
 	width: 100%;
 }
 .col-md-3 {
 	padding-left: 0;
+}
+.bins {
+	width: 25%;
+}
+.quicklinks {
+	width: 20%;
+}
+.endservice {
+	width: 30%;
+}
+.stayin {
+	width: 25%;
+}
+.footer-logo {
+	width: 25%;
+}
+.footer-logo img {
+	width: 100%;
+}
+.main-11 h3 {
+	font-size: 15px;
+	font-weight: bold;
+}
+#fname {
+	width: 49%;
+	padding: 4px 5px;
+	border-radius: 5px;
+	border: none;
+}
+.form-1 {
+	display: flex;
+	justify-content: space-around;
+}
+input {
+	width: 99%;
+	padding: 4px 5px;
+	border-radius: 5px;
+}
+.submit {
+	width: 100%;
+	margin-top: 10px;
 }
