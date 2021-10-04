@@ -223,7 +223,7 @@ ul .sub-nav ul {
 	height: 150px;
 	margin-top: 16px;
 	padding-left: 0;
-	width: 107px;
+	width: 106px;
 }
 ul.sub-nav {
 	display: none;
@@ -258,7 +258,7 @@ ul.sub-nav li a{
     margin-top: 10px;
 }
 ul.nav li a {
-	padding: 15px 10px 14px 10px;
+	padding: 17px 10px 16px 10px;
 }
 .nav-2 .fab.fa-facebook {
 	color: white;
@@ -758,6 +758,7 @@ input {
 .bins p {
 	color: white;
 	font-size: 13px;
+	margin-top: 10px;
 }
 .quicklinks h3 {
 	color: #ea0a2a;
