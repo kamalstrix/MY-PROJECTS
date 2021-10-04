@@ -431,6 +431,7 @@ ul.win li a:hover::after {
 }
 .main-8 {
 	width: 100%;
+	margin-top: 20px;
 }
 .main-8 .row {
 	display: flex;
@@ -509,6 +510,7 @@ ul.win li a:hover::after {
 }
 .main-9 {
 	width: 100%;
+	margin-top: 50px;
 }
 .client h1 {
 	text-align: center;
@@ -523,4 +525,107 @@ ul.win li a:hover::after {
 }
 .navigation {
 	margin-top: 20px;
+}
+.col-md-9.email {
+	padding-left: 40px;
+	position: relative;
+}
+.col-md-9.email::before {
+	position: absolute;
+	content: "\f0e0";
+	font-family: "Font Awesome 6 Free";
+	font-weight: 900;
+	left: 0;
+	font-size: 30px;
+	color: #ea0a2a;
+}
+.col-md-9.call {
+	margin-top: 15px;
+	padding-left: 40px;
+	position: relative;
+}
+.col-md-9.call::before {
+	position: absolute;
+	content: "\f095";
+	font-family: "Font Awesome 6 Free";
+	font-weight: 900;
+	left: 0;
+	font-size: 30px;
+	color: #ea0a2a;
+}
+.col-md-9.king {
+	margin-top: 15px;
+	padding-left: 40px;
+	position: relative;
+}
+.col-md-9.king::before {
+	position: absolute;
+	content: "\f3c5";
+	font-family: "Font Awesome 6 Free";
+	font-weight: 900;
+	left: 0;
+	font-size: 30px;
+	color: #ea0a2a;
+}
+.col-md-9.time {
+	margin-top: 15px;
+	padding-left: 40px;
+	position: relative;
+}
+.col-md-9.time::before {
+	position: absolute;
+	content: "\f017";
+	font-family: "Font Awesome 6 Free";
+	font-weight: 900;
+	left: 0;
+	font-size: 30px;
+	color: #ea0a2a;
+}
+.col-md-9.time h6 {
+	margin: 0;
+	color: #222222;
+}
+.col-md-9.king h6 {
+	margin: 0;
+	color: #222222;
+}
+.col-md-9.call h6 {
+	margin: 0;
+	color: #222222;
+}
+.col-md-9.email h6 {
+	margin: 0;
+	color: #222222;
+}
+.col-md-6.area h1 {
+	font-size: 36px;
+	font-weight: 501;
+	color: #224189;
+}
+.col-md-9.email a {
+	color: #666666;
+}
+.col-md-9.call a {
+	color: #666666;
+}
+.col-md-9.king a {
+	color: #666666;
+}
+.col-md-9.time a {
+	color: #666666;
+}
+.col-md-9.email a:hover {
+	text-decoration: none;
+}
+.col-md-9.call a:hover {
+	text-decoration: none;
+}
+.col-md-9.king a:hover {
+	text-decoration: none;
+}
+.col-md-9.time a:hover {
+	text-decoration: none;
+}
+.col-md-6.area p {
+	color: #636363;
 }
