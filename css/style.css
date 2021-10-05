@@ -51,7 +51,7 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{font-weight:bold !important;}
-p{font-weight:400 !important}
+p {font-weight:401 !important}
 .main-1 .row {
 	display: flex;
 	justify-content: space-between;
@@ -382,7 +382,7 @@ ul.nav li a {
 	width: 100%;
 	background-image: url(../images/slider-banner.PNG);
 	padding-bottom: 60px;
-	margin-top: 60px;
+	margin-top: 85px;
 }
 
 .main-5 .row {
@@ -489,7 +489,7 @@ ul.win li a:hover::after {
 }
 .main-8 {
 	width: 100%;
-	margin-top: 20px;
+	margin-top: 35px;
 }
 .main-8 .row {
 	display: flex;
@@ -569,7 +569,7 @@ ul.win li a:hover::after {
 }
 .main-9 {
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 110px;
 }
 .client h1 {
 	text-align: center;
@@ -819,20 +819,22 @@ ul.quick li a:hover {
 
 
 .slider-nav .slick-slide img {
-	opacity: 0.5;
+	opacity: 0.4;
 }
 .slider-nav  .slick-current img {
 	opacity: 1;
 	transform: scale(1.2);
 }
-.slider-nav  .slick-current img :hover{
-	border-radius: 3px 3px 3px 3px;
+.slider-nav  .slick-current img:hover{
+	border-radius: 8px;
 }
 
 
 
 .item-1 img {
 	width: 88%;
+	height: 130px;
+    object-fit: cover;
 }
 
 .item {

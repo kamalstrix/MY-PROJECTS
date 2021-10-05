@@ -117,6 +117,7 @@ $('.slider-nav').slick({
   asNavFor: '.slider-for',
   dots: false,
   centerMode: true,
+  centerPadding: '0px',
   focusOnSelect: true,
  
 });
