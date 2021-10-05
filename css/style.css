@@ -741,6 +741,7 @@ ul.win li a:hover::after {
 	padding: 7px 5px;
 	border-radius: 5px;
 	border: none;
+	font-size: 13px;
 }
 .form-1 {
 	display: flex;
@@ -791,6 +792,8 @@ ul.quick li a:hover {
 .sub input {
 	background: red;
 	color: white;
+	font-size: 13px;
+	border: 1px solid white;
 }
 ul.quick li a {
 	color: white;
