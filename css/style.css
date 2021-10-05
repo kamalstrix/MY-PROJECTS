@@ -319,7 +319,7 @@ ul.nav li a {
 	padding-left: 110px;
 }
 .col-md-6.left h1 {
-	font-size: 63px;
+	font-size: 61px;
 	color: white;
 }
 .col-md-6.left p {
@@ -587,7 +587,7 @@ ul.win li a:hover::after {
 }
 .main-10 {
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 70px;
 }
 .main-10 .container-fluid {
 	width: 100%;
@@ -861,4 +861,7 @@ ul.quick li a:hover {
 .item p{
 	font-size: 14px;
 	color: #858585;
+}
+.slider-nav.slick-initialized.slick-slider {
+	padding-left: 20px;
 }
