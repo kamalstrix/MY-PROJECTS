@@ -62,7 +62,6 @@ $('.slick-one').slick({
 
 
 
-
 var $st = $('.pagination');
 var $slickEl = $('.rotation-slider');
 
