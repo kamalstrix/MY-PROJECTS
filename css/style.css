@@ -1,7 +1,7 @@
-/* @font-face {
+@font-face {
     font-family: 'Ubuntu';
     src: url('../Ubuntu-Bold.eot');
-    src: local('Ubuntu Bold'), local('Ubuntu-Bold'),
+    src: local('../Ubuntu Bold'), local('Ubuntu-Bold'),
         url('../Ubuntu-Bold.eot?#iefix') format('embedded-opentype'),
         url('../Ubuntu-Bold.woff2') format('woff2'),
         url('../Ubuntu-Bold.woff') format('woff'),
@@ -18,7 +18,7 @@
 @font-face {
     font-family: 'Ubuntu';
     src: url('../font/Ubuntu-Bold.eot');
-    src: local('Ubuntu Light'), local('Ubuntu-Light'),
+    src: local('../Ubuntu Light'), local('Ubuntu-Light'),
         url('../font/Ubuntu-Bold.eot') format('embedded-opentype'),
         url('../font/Ubuntu-Bold.eot') format('woff2'),
         url('../font/Ubuntu-Bold.eot') format('woff'),
@@ -26,7 +26,7 @@
     font-weight: 300;
     font-style: normal;
     font-display: swap;
-} */
+}
 
 
 
@@ -36,7 +36,7 @@
 @font-face {
     font-family: 'Ubuntu';
     src: url('../Ubuntu-Regular.eot');
-    src: local('Ubuntu Regular'), local('Ubuntu-Regular'),
+    src: local('../Ubuntu Regular'), local('Ubuntu-Regular'),
         url('../Ubuntu-Regular.eot?#iefix') format('embedded-opentype'),
         url('../Ubuntu-Regular.woff2') format('woff2'),
         url('../Ubuntu-Regular.woff') format('woff'),
@@ -45,12 +45,13 @@
     font-style: normal;
     font-display: swap;
 }
-
+*{scrollbar-color: inherit !important;}
 body{
-	font-family: 'Ubuntu' !important;
+	font-family: 'Ubuntu' !important;overflow-x: hidden;
 }
 
-
+h1, h2, h3, h4, h5, h6{font-weight:bold !important;}
+p{font-weight:400 !important}
 .main-1 .row {
 	display: flex;
 	justify-content: space-between;
@@ -814,3 +815,13 @@ ul.quick li a:hover {
 .quick span {
 	color: red;
 }
+
+
+.slider-nav .slick-slide img {
+	opacity: 0.5;
+}
+.slider-nav  .slick-current img {
+	opacity: 9;
+}
+
+.slider-nav  .slick-current img:hover {transform: scale(1.2);}
