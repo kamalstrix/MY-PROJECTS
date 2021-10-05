@@ -574,6 +574,7 @@ ul.win li a:hover::after {
 .client h1 {
 	text-align: center;
 	color: #222222;
+	font-size: 25px;
 }
 .col-md-6.map img {
 	width: 100%;
@@ -821,7 +822,31 @@ ul.quick li a:hover {
 	opacity: 0.5;
 }
 .slider-nav  .slick-current img {
-	opacity: 9;
+	opacity: 1;
+	transform: scale(1.2);
 }
 
-.slider-nav  .slick-current img:hover {transform: scale(1.2);}
+
+
+.item-1 img {
+	width: 88%;
+}
+
+.item {
+	width: 100% !important;
+	text-align: center;
+	margin-top: 30px;
+	line-height: 20px;
+}
+.item img {
+	width: 10%;
+}
+.item h1{
+	font-size: 23px;
+}
+.item h2{
+	font-size: 18px;
+}
+.item-1 {
+	margin-top: 50px;
+}
