@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Ubuntu';
-    src: url('../Ubuntu-Bold.eot');
-    src: local('../Ubuntu Bold'), local('Ubuntu-Bold'),
-        url('../Ubuntu-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../Ubuntu-Bold.woff2') format('woff2'),
-        url('../Ubuntu-Bold.woff') format('woff'),
-        url('../Ubuntu-Bold.ttf') format('truetype');
+    src: url('../font/Ubuntu-Bold.eot');
+    src: local('../font/Ubuntu Bold'), local('Ubuntu-Bold'),
+        url('../font/Ubuntu-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/Ubuntu-Bold.woff2') format('woff2'),
+        url('../font/Ubuntu-Bold.woff') format('woff'),
+        url('../font/Ubuntu-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -18,7 +18,7 @@
 @font-face {
     font-family: 'Ubuntu';
     src: url('../font/Ubuntu-Bold.eot');
-    src: local('../Ubuntu Light'), local('Ubuntu-Light'),
+    src: local('../font/Ubuntu Light'), local('Ubuntu-Light'),
         url('../font/Ubuntu-Bold.eot') format('embedded-opentype'),
         url('../font/Ubuntu-Bold.eot') format('woff2'),
         url('../font/Ubuntu-Bold.eot') format('woff'),
@@ -35,12 +35,12 @@
 
 @font-face {
     font-family: 'Ubuntu';
-    src: url('../Ubuntu-Regular.eot');
-    src: local('../Ubuntu Regular'), local('Ubuntu-Regular'),
-        url('../Ubuntu-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../Ubuntu-Regular.woff2') format('woff2'),
-        url('../Ubuntu-Regular.woff') format('woff'),
-        url('../Ubuntu-Regular.ttf') format('truetype');
+    src: url('../font/Ubuntu-Regular.eot');
+    src: local('../font/Ubuntu Regular'), local('Ubuntu-Regular'),
+        url('../font/Ubuntu-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/Ubuntu-Regular.woff2') format('woff2'),
+        url('../font/Ubuntu-Regular.woff') format('woff'),
+        url('../font/Ubuntu-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
