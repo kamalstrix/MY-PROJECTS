@@ -319,7 +319,7 @@ ul.nav li a {
 	padding-left: 110px;
 }
 .col-md-6.left h1 {
-	font-size: 65px;
+	font-size: 63px;
 	color: white;
 }
 .col-md-6.left p {
@@ -825,6 +825,9 @@ ul.quick li a:hover {
 	opacity: 1;
 	transform: scale(1.2);
 }
+.slider-nav  .slick-current img :hover{
+	border-radius: 3px 3px 3px 3px;
+}
 
 
 
@@ -839,14 +842,21 @@ ul.quick li a:hover {
 	line-height: 20px;
 }
 .item img {
-	width: 10%;
+	width: 7%;
 }
 .item h1{
-	font-size: 23px;
+	font-size: 21px;
+	color: #525151;
+	text-transform: uppercase;
 }
 .item h2{
 	font-size: 18px;
+	color: #858585;
 }
 .item-1 {
 	margin-top: 50px;
+}
+.item p{
+	font-size: 14px;
+	color: #858585;
 }
