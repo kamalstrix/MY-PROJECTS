@@ -242,7 +242,7 @@ ul .sub-nav ul {
 	height: 150px;
 	margin-top: 1px;
 	padding-left: 0px;
-	width: 107px;
+	width: 113px;
 }
 ul.sub-nav {
 	display: none;
@@ -882,10 +882,19 @@ ul.quick li a:hover {
 	padding-left: 22px;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+	color: white !important;
+	padding: 17px 11px !important;
+}
+ul.sub-nav {
+	display: none;
+	margin-top: 0px !important;
+	position: absolute;
+}
 
 
 
-
+	
 
 
 
@@ -907,10 +916,104 @@ ul.navbar-nav a:hover {
 
 
 
-@media only screen and (max-width: 992px) {
-
-
-
-
-
+@media only screen and (max-width: 1199px) {
+	.col-sm-2.contact-1 h6::before {
+		left: -9px;
+		top: 3px;
+		font-size: 25px;
+		
+	}
+	.col-sm-2.contact-2 h6 {
+		font-size: 15px !important;
+	}
+    .col-sm-2.contact-1 h6 {
+		font-size: 15px !important;
+	}
+    .col-sm-2.contact-2 h6::before {
+		
+		left: -9px;
+		top: 3px;
+		font-size: 25px;
+		
+	}
+	.col-sm-2.contact-1 li {
+		font-size: 11px;
+		
+	}
+	.col-sm-2.contact-2 li a {
+		font-size: 11px;
+	}
+	.col-sm-3.contact-3 h6 {
+		font-size: 15px !important;
+	}
+	.col-sm-3.contact-3 li a {
+		font-size: 11px;
+	}
+	.col-sm-2.contact-4 li a {
+		font-size: 11px;
+	}
+	.col-sm-2.contact-4 h6 {
+		font-size: 15px !important;
+	}
+	.col-sm-3.contact-3 h6::before {
+		left: -9px;
+		top: 3px;
+		font-size: 25px;
+		
+	}
+	.col-sm-2.contact-4 h6::before {
+	
+		left: -9px;
+		top: 3px;
+		font-size: 25px;
+		
+	}
+	ul.navbar-nav.nav li a {
+		font-size: 14px;
+	}
+	.nav li:hover ul {
+	
+		padding: 0 9px;
+		list-style: none;
+		height: 150px;
+		margin-top: 1px;
+		padding-left: 0;
+		width: 107px;
+	}
+	.navbar-dark .navbar-nav .nav-link {
+		
+		padding: 18px 11px !important;
+	}
+	#collapsibleNavbar {
+		padding: 0px 6px;
+	}
+	.col-md-6.left h1 {
+		font-size: 53px;
+		
+	}
+	.col-md-8.center {
+		
+		top: 493px;
+	
+	}
+	.spacing h2 {
+		font-size: 19px;
+	}
+	.plan-center .button {
+		margin-top: 13px;
+		padding-left: 12px;
+	
+	}
+	.plan-center-1 .spacing h2 {
+		font-size: 15px;
+	}
+	.plan-center-1 .spacing h4{
+		font-size: 19px;
+	}
+	.plan-center-1 .button {
+		margin-top: 13px;
+		padding-left: 12px;
+	
+	}
+	
 }
