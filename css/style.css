@@ -974,10 +974,9 @@ ul.navbar-nav a:hover {
 	.nav li:hover ul {
 	
 		padding: 0 9px;
-		list-style: none;
-		height: 150px;
+		
 		margin-top: 1px;
-		padding-left: 0;
+		
 		width: 107px;
 	}
 	.navbar-dark .navbar-nav .nav-link {
@@ -1017,3 +1016,233 @@ ul.navbar-nav a:hover {
 	}
 	
 }
+@media  screen and (max-width: 1024px) {
+.container {
+	max-width: 100% !important;
+	
+	
+}
+.col-md-8.center {
+	top: -28px;
+	position: relative;
+}
+.col-md-8.eco h5 {
+	font-size: 19px;
+}
+.col-md-8.eco p {
+font-size: 14px;
+}
+.col-md-6.map img {
+	height: 470px;
+}
+.col-md-6.area {
+	padding-top: 55px;
+}
+.bins {
+	padding-left: 10px;
+}
+.stayin {
+	padding-right: 10px;
+}
+}
+@media only screen and (max-width: 991px) {
+
+
+	.col-md-8.center {
+		top: -17px;
+		position: relative;
+	}
+	.col-md-8.eco p {
+		font-size: 14px;
+	}
+	.col-md-8.eco h5 {
+		font-size: 19px;
+	}
+	.slick-inner img {
+		
+		height: 320px;
+	}
+	.nav li:hover ul {
+		padding: 0 0;
+		width: 99px;
+	}
+	.col-md-3.logo img {
+		width: 85%;
+		object-fit: cover;
+	}
+}
+@media screen and (max-width: 870px) {
+	
+	
+	
+	
+	.navbar-dark .navbar-nav .nav-link {
+		padding: 18px 10px !important;
+	}
+    .nav li:hover ul {
+	    width: 97px !important;
+	}
+	.col-md-6.left h1 {
+		font-size: 47px !important;
+		
+	}
+	.col-md-8.center {
+		top: 24px;
+	}
+	
+	.col-sm-2.contact-2 h6 {
+		font-size: 13px !important;
+	}
+	.col-sm-3.contact-3 h6 {
+		font-size: 13px !important;
+	}
+	.col-sm-2.contact-4 h6 {
+		font-size: 13px !important;
+	}
+	.col-sm-2.contact-2 li a {
+		font-size: 10px;
+	}
+	.col-sm-3.contact-3 li a {
+		font-size: 10px;
+	}
+	.col-sm-2.contact-4 li a {
+		font-size: 10px;
+	}
+	.col-md-8.eco h5 {
+		font-size: 16px;
+	}
+	.col-md-8.eco p {
+		font-size: 12px;
+	}
+
+
+
+	.plan-center-1 .spacing h2 {
+		font-size: 13px;
+	}
+	.plan-center-1 .spacing h4{
+		font-size: 17px;
+	}
+	.plan-center .button {
+		margin-top: 13px;
+		padding-left: 10px;
+	}
+	
+	.plan-center-1 .button {
+		margin-top: 13px;
+		padding-left: 10px;
+	}
+	.plan-center .btn-plan {
+		padding: 9px 7px;
+	}
+	.plan-center-1 .btn-plan {
+		
+		padding: 9px 7px;
+		
+	}
+	.spacing h2 {
+		font-size: 17px;
+	}
+	.main-8 .row {
+		justify-content: space-around;
+	}
+	ul.quick li a {
+		font-size: 14px;
+	}
+	ul.endnav li a {
+		font-size: 14px;
+	}	
+	#fname {
+		width: 48%;
+		padding: 6px 5px;
+		font-size: 11px;
+	}
+	ul.endnav {
+		margin-top: 16px;
+	}
+	ul.quick {
+		margin-top: 16px;
+	}
+	.sub {
+		width: 99%;
+	
+	}
+	.col-md-6.area {
+		padding-top: 30px;
+	}
+	.col-md-6.area p {
+		
+		font-size: 15px;
+	}
+	.col-md-9.email a {
+	
+		font-size: 15px;
+	}
+	.col-md-9.king a {
+	
+		font-size: 15px;
+	}
+	.col-md-9.time a {
+	
+		font-size: 15px;
+	}
+	.col-md-9.call h6 {
+		
+		font-size: 14px;
+	}
+    .col-md-9.email h6{
+		font-size: 14px;
+	}
+	.col-md-9.king h6{
+		font-size: 14px;
+	}
+	.col-md-9.time h6 {
+		font-size: 14px;
+	}
+	.col-md-6.area h1 {
+		font-size: 33px;
+	}
+	.col-md-9.email::before {
+	    left: 2px;
+		font-size: 25px;
+		color: #ea0a2a;
+	}
+	.col-md-9.call::before{
+		left: 2px;
+		font-size: 25px;
+		color: #ea0a2a;
+	}
+	
+.col-md-9.king::before{
+	    left: 2px;
+	    font-size: 25px;
+	    color: #ea0a2a;
+
+}
+.col-md-9.time::before {
+	    left: 2px;
+	    font-size: 25px;
+	    color: #ea0a2a;
+}
+.col-md-6.map img {
+	height: 440px;
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+	/* .nav li:hover ul {
+		padding: 0 121px;
+		width: 99px;
+	}
+	.col-md-3.logo {
+		padding-left: 215px;
+	}
+	.col-md-3.logo img {
+		width: 56%;
+	}
+} */
+
+
+
+
