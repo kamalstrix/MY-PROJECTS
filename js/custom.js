@@ -6,7 +6,7 @@ $('.slider').slick({
   autoplaySpeed: 10000,
   centerMode:false,
   infinite:true,
-  dots: false,
+  dots: true,
   arrow:true,
   
   responsive: [
@@ -36,7 +36,7 @@ $('.slick-one').slick({
   autoplaySpeed: 10000,
   centerMode:false,
   infinite:true,
-  dots: false,
+  dots: true,
   arrow:true,
   
   responsive: [
@@ -75,7 +75,7 @@ $slickEl.slick({
   centerPadding: '200px',
   slidesToShow: 1,
   focusOnSelect: true,
-  dots: false,
+  dots: true,
   infinite: true,
   responsive: [
     {
@@ -96,6 +96,9 @@ $slickEl.slick({
         slidesToShow: 1
       }
     }
+
+    
+
   ]
 });
 
