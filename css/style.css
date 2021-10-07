@@ -1094,7 +1094,6 @@ font-size: 14px;
 		width: 108px;
 	}
 	
-	
 }
 
 
@@ -1142,8 +1141,6 @@ font-size: 14px;
 	.col-md-8.eco p {
 		font-size: 12px;
 	}
-
-
 
 	.plan-center-1 .spacing h2 {
 		font-size: 13px;
@@ -1361,22 +1358,13 @@ ul.quick li a {
 .slick-next::before {
 	content: '\f152';
 	
-
-
-
-
 }
 .slick-prev::before {
 	content: '\f191';
 
 	
-	
-	
-
-	
-
 }
-
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -1494,10 +1482,6 @@ ul.quick li a {
 		width: 18%;
 	}
 	
-
-
-    
-
 
 }
 @media only screen and (max-width: 375px) {
@@ -1757,10 +1741,10 @@ ul.quick li a {
 	.nav li:hover ul {
 		line-height: 21px;
 	}
+
+
+
 }
-
-
-
 
 
 
