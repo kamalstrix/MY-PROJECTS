@@ -974,7 +974,7 @@ ul.navbar-nav a:hover {
 	}
 	.nav li:hover ul {
 	
-		padding: 0 9px;
+		padding: -1px 9px;
 		
 		margin-top: 1px;
 		
@@ -1015,6 +1015,7 @@ ul.navbar-nav a:hover {
 		padding-left: 12px;
 	
 	}
+	
 	
 	
 }
@@ -1064,10 +1065,7 @@ font-size: 14px;
 		
 		height: 320px;
 	}
-	.nav li:hover ul {
-		padding: 0 0;
-		width: 99px;
-	}
+	
 	.col-md-3.logo img {
 		width: 85%;
 		object-fit: cover;
@@ -1089,6 +1087,11 @@ font-size: 14px;
 	}
 	.main-8 .row {
 		justify-content: space-around;
+	}
+	
+	.nav li:hover ul {
+		padding: -1px 9px !important;
+		width: 108px;
 	}
 	
 	
@@ -1352,8 +1355,9 @@ ul.quick li a {
     font-size: 12px;
 }
 .col-sm-3.contact-3 {
-	padding-left: 0;
+	padding: 0;
 }
+
 
 
 
