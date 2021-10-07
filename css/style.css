@@ -1358,8 +1358,22 @@ ul.quick li a {
 	padding: 0;
 }
 
+.slick-next::before {
+	content: '\f152';
+	
 
 
+
+
+}
+.slick-prev::before {
+	content: '\f191';
+
+	
+	
+	
+
+	
 
 }
 
@@ -1497,7 +1511,7 @@ ul.quick li a {
 		margin-top: 110px;
 	}
 	.banner {
-	    height: 470px;
+	    height: 460px;
 	
 	}
 	.col-md-6.left p {
@@ -1530,10 +1544,12 @@ ul.quick li a {
 	}
 	.slick-next {
 		right: -61px;
+	
 	}
 	.slick-prev::before {
 	
 		left: -68px;
+		
 	}
 	.slick-dots li button::before {
 		font-family: 'slick';
