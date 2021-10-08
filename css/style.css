@@ -1266,30 +1266,30 @@ font-size: 14px;
 	display: flex !important;
 	width: 100%;
 	
-}
+}	
 .col-sm-2.contact-1 h6 {
-	padding-left: 0;
+	padding-left: 15px;
 }
 .col-sm-2.contact-1 li {
-	padding: 0;
+	padding: 15px;
 }
 .col-sm-2.contact-2 h6 {
-	padding-left: 0;
+	padding-left: 15px;
 }
 .col-sm-2.contact-2 li {
-	padding-left: 0;
+	padding-left: 15px;
 }
 .col-sm-3.contact-3 h6 {
-	padding-left: 0;
+	padding-left: 15px;
 }
 .col-sm-3.contact-3 li {
-	padding-left: 0;
+	padding-left: 15px;
 }
 .col-sm-2.contact-4 h6 {
-	padding-left: 0;
+	padding-left: 15px;
 }
 .col-sm-2.contact-4 li {
-	padding-left: 0;
+	padding-left: 15px;
 }
 .col-sm-2.contact-2 h6::before {
 	
@@ -1311,7 +1311,7 @@ font-size: 14px;
 	top: -7px;
 }
 .main-4 .row {
-	display: flex;
+	display:block;
 	flex-wrap: unset;
 }
 .plan-center .btn-plan {
@@ -1340,7 +1340,7 @@ font-size: 14px;
 	margin-top: 20px;
 }
 .col-md-6.area {
-	padding-left: 60px;
+	padding-left: 20px;
 }
 ul.endnav li a {
 	font-size: 12px;
@@ -1354,16 +1354,88 @@ ul.quick li a {
 .col-sm-3.contact-3 {
 	padding: 0;
 }
+.plan {
+	width: 100%;
+}
+.spacing {
+	padding-left: 55px;
+	width: 50%;
+}
+.plan-center .button {
+    width: 50%;
+	text-align: center;
+}
+.plan-center-1 .button {
+	width: 50%;
+	text-align: center;
+}
+.spacing {
+	width: 50%;
+	text-align: center;
+}
+.col-md-4.detail {
+	width: 100%;
+	text-align: center;
+}
+.col-md-4.detail img {
+	width: 50%;
+}
+.bins {
+	width: 100%;
+	padding-left: 20px;
+}
+.quicklinks {
+	width: 100%;
+}
+.endservice {
+	width: 100%;
+	padding-left: 20px;
+}
+.stayin {
+	width: 100%;
+	padding-left: 20px;
+}
+.quicklinks h3 {
+	padding-left: 20px;
+}
+ul.quick {
+	padding: 0;
+	padding-left: 20px;
+}
+#fname {
+	padding: 6px 6px;
 
+}
+.sub {
+	padding-left: 4px;
+}
+.slick-slide img {
+	width: 35%;
+	object-fit: cover;
+	height: 270px;
+}
+.slider-inner {
+	text-align: center;
+}
+.slick-inner {
+	text-align: center;
+}
+.client h1 {
+	
+	padding-left: 15px;
+}
+.item-1 {
+	text-align: center;
+}
+.item img {
+	height: 40px;
+}
 .slick-next::before {
-	content: '\f152';
-	
+	font-size: 56px;
+	left: -142px;
 }
-.slick-prev::before {
-	content: '\f191';
 
-	
-}
+
 }
 
 
@@ -1526,15 +1598,7 @@ ul.quick li a {
 	.slider-nav .slick-slide img {
 		height: 60px;
 	}
-	.slick-next {
-		right: -61px;
 	
-	}
-	.slick-prev::before {
-	
-		left: -68px;
-		
-	}
 	.slick-dots li button::before {
 		font-family: 'slick';
 		font-size: 36px;
@@ -1745,6 +1809,10 @@ ul.quick li a {
 
 
 }
+
+
+
+
 
 
 

@@ -1,32 +1,34 @@
 
-// $('.slider').slick({
-//   slidesToShow: 6,
-//   slidesToScroll: 1,
-//   autoplay: true,
-//   autoplaySpeed: 10000,
-//   centerMode:false,
-//   infinite:true,
-//   dots: true,
-//   arrow:true,
-  
-//   responsive: [
-//     {
-//       breakpoint: 767,
-//       settings: {
-//         slidesToShow: 1,
-//         centerPadding: '0'
-//       }
-//     },
-//     {
-//       breakpoint: 600,
-//       settings: {
-//         slidesToShow: 1,
-//       }
-//     }
+$('.slider').slick({
+  slidesToShow: 6,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 10000,
+  centerMode:false,
+  infinite:true,
+  dots: true,
+  arrow:true,
+  responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 1,
+        dots: true,
+        arrow:false,
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        dots: true,
+        arrow:false,
+      }
+    }
 
   
-//   ]
-// });
+  ]
+     });
 
 
 $('.slick-one').slick({
@@ -65,45 +67,6 @@ $('.slick-one').slick({
 
 
 
-// var $st = $('.pagination');
-// var $slickEl = $('.rotation-slider');
-
-// $slickEl.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
-//   var i = (currentSlide ? currentSlide : 0) + 1;
-//   $st.text(i + ' of ' + slick.slideCount);
-// });
-
-// $slickEl.slick({
-//   centerMode: true,
-//   centerPadding: '200px',
-//   slidesToShow: 1,
-//   focusOnSelect: true,
-//   dots: true,
-//   infinite: true,
-//   responsive: [
-//     {
-//       breakpoint: 768,
-//       settings: {
-//         arrows: false,
-//         centerMode: true,
-//         centerPadding: '40px',
-//         slidesToShow: 1
-//       }
-//     },
-//     {
-//       breakpoint: 480,
-//       settings: {
-//         arrows: false,
-//         centerMode: true,
-//         centerPadding: '40px',
-//         slidesToShow: 1
-//       }
-//     }
-
-    
-
-//   ]
-// });
 
 
 /*************/
@@ -124,7 +87,30 @@ $('.slider-nav').slick({
   centerMode: true,
   centerPadding: '0px',
   focusOnSelect: true,
- 
+  responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 1,
+        dots: true,
+        arrow:false,
+        centerPadding: '0',
+        centerMode: true,
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        dots: true,
+        arrow:false,
+        centerMode: true,
+        centerPadding: '0',
+      }
+    }
+
+  
+  ]
 });
 		
 /***********/
