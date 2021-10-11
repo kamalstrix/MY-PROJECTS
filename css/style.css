@@ -1093,6 +1093,36 @@ font-size: 14px;
 		padding: -1px 9px !important;
 		width: 108px;
 	}
+	.slick-inner {
+		text-align: center;
+	}
+	.slick-slide img {
+		width: 50%;
+	}
+	.slider-inner {
+		text-align: center;
+	}
+	.slider-inner {
+		padding-left: 0;
+		margin-right: 0;
+	}
+	.item-1 {
+		text-align: center;
+	}
+	.slick-next::before {
+		left: -136px;
+	}
+	.slick-prev::before {
+		left: 140px;
+	}
+	.item-1 img {
+		object-fit: cover;
+	}
+	.item img {
+		height: 25px;
+		width: 15%;
+	}
+
 	
 }
 
