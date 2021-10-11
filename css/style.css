@@ -260,6 +260,32 @@ ul.sub-nav li a:hover {
 
 
 }
+.nav-link::after {
+	position: absolute;
+	/* z-index: 999; */
+	content: "";
+	bottom: 0;
+	height: 0;
+	width: 100%;
+	background: red;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	transition: .35s;
+	z-index: -9999;
+}
+.nav-link:hover::after {
+	height: 100%;
+	transition: 0.35s;
+}
+.nav-link {
+	position: relative;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: white !important;
+	padding: 17px 11px !important;
+	z-index: 999999;
+}
 ul.sub-nav li a{
     color: white;
     font-size: 14px;
@@ -908,9 +934,7 @@ ul.navbar-nav.nav {
 .navbar {
 	padding: 0 !important;
 }
-ul.navbar-nav a:hover {
-	background:#ea0a2a ;
-}
+
 
 
 
