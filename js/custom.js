@@ -92,7 +92,7 @@ $('.slider-nav').slick({
       breakpoint: 992,
       settings: {
         slidesToShow: 1,
-        dots: true,
+        dots: false,
         arrow:false,
         centerPadding: '0',
         centerMode: true,
@@ -102,7 +102,7 @@ $('.slider-nav').slick({
       breakpoint: 767,
       settings: {
         slidesToShow: 1,
-        dots: true,
+        dots: false,
         arrow:false,
         centerMode: true,
         centerPadding: '0',
