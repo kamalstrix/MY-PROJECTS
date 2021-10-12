@@ -1,20 +1,58 @@
+body {
+	background: currentColor !important;
+}
+.container {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+.row {
+	display: flex;
+	justify-content: space-around;
+}
+
 .blank {
     width: 200px;
     height: 250px;
-    background-color: tomato;
+    background-color: rgb(62, 82, 148);
     position: relative;
     animation: mymove 5s infinite;
   }
   
   @keyframes mymove {
-    from {top: 0px;}
-    to {top: 200px;}
+    0%   {top: 0px; left: 0px; background: red;}
+  25%  {top: 0px; left: 100px; background: sandybrown;}
+  50%  {top: 100px; left: 100px; background: rebeccapurple;}
+  75%  {top: 100px; left: 0px; background: rgb(116, 124, 116);}
+  100% {top: 0px; left: 0px; background: orange;}
    
   }
   .blank img {
     width: 100%;
   }
-  h1 {
+  .h1, h1 {
+    font-size: 36px;
+    color: white !important;
     text-align: center;
+  }
+  .navbar.navbar-inverse {
+    background: crimson;
+  }
+  ul.nav.navbar-nav li a {
     color: white;
+  }
+  .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    color: #fff;
+    background-color: rebeccapurple !important;
+  }
+  .navbar-header a {
+    color: orange !important;
+  }
+  ul.nav.navbar-nav li a {
+    color: currentColor;
+  }
+  ul.nav.navbar-nav li a:hover {
+    position: relative;
   }
