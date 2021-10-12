@@ -56,3 +56,33 @@ body {
   ul.nav.navbar-nav li a:hover {
     position: relative;
   }
+  
+  .hidden-menu {
+    display: none;
+    background-color: rgb(124, 13, 82);
+   
+  }
+  #show-hidden-menu {
+    color: white;
+    display: block;
+    font-size: 26px;
+    font-weight: 601;
+    width: 20%;
+    float: left;
+    background-color: slateblue;
+  }
+  
+  ul.sub li {
+    padding: 7px 15px 11px;
+    display: inline;
+  }
+  .hidden-menu {
+    width: 80%;
+    float: left;
+  }
+ 
+  .awesom {
+    
+    display: inline;
+  }
+  
