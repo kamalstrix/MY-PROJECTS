@@ -1,6 +1,6 @@
 .blank {
     width: 200px;
-    height: 300px;
+    height: 250px;
     background-color: tomato;
     position: relative;
     animation: mymove 5s infinite;
@@ -11,4 +11,10 @@
     to {top: 200px;}
    
   }
-  
+  .blank img {
+    width: 100%;
+  }
+  h1 {
+    text-align: center;
+    color: white;
+  }
