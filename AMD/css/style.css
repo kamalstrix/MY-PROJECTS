@@ -21,6 +21,7 @@ body{
 }
 .main-1 {
 	width: 100%;
+	margin-top: 15px;
 }
 .container{
 	width: 100%;
@@ -60,17 +61,19 @@ ul.dropdown li a {
 	background-image: url(../images/frist-banner-1.png);
 	height: 600px;
 	background-position: 20% 70%;
-	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin-top: 20px;
 }
 .banner-inner h1 {
-	font-size: 56px;
+	font-size: 50px;
 }
 .banner-inner span {
 	color: #35caf0;
 }
 .designation {
 	width: 100%;
+	margin-top: 100px;
 }
 .container.one {
 	width: 100%;
@@ -115,10 +118,7 @@ ul.dropdown-one li a{
 	text-decoration: none;
     color: #777777;
 }
-ul.dropdown-one li a:hover {
-	background-color: #3a5fa5;
-   
-}
+
 ul.dropdown-one li span {
 	color: white;
 }
@@ -179,6 +179,7 @@ ul.link-1 {
 }
 .main-2 {
 	width: 100%;
+	overflow-x: hidden;
 }
 .gallery-1 {
 	width: 50%;
@@ -187,6 +188,7 @@ ul.link-1 {
 .gallery-2 {
 	width: 50%;
 	padding-top: 200px;
+	text-align: end;
 }
 .gallery-1 img {
 	width: 100%;
@@ -265,4 +267,142 @@ ul.link-1 {
 }
 .share span {
 	color: #35caf0;
+}
+.logo-1 {
+	width: 50%;
+}
+.logo-1 img {
+	width: 100%;
+}
+ul.last-nav {
+	padding: 0;
+}
+ul.last-nav li {
+	list-style: none;
+	line-height: 25px;
+}
+ul.last-nav li a {
+	font-size: 18px;
+	text-decoration: none;
+	color: #333333;
+}
+.association {
+	width: 50%;
+}
+.social {
+	width: 50%;
+}
+.row-3 {
+	display: flex;
+}
+ul.nav-social {
+	margin: 0;
+	display: flex;
+	justify-content: end;
+}
+ul.nav-social li{
+	list-style: none;
+}
+ul.nav-social li a {
+	padding: 0 10px;
+	font-size: 35px;
+	color: #333333;
+}
+
+ul.nav-social-2 li {
+	list-style: none;
+}
+
+ul.nav-social-2 {
+	display: flex;
+	justify-content: end;
+}
+ul.nav-social-2 li a {
+	text-decoration: none;
+	font-size: 25px;
+	padding: 0 10px;
+	color: #333333;
+}
+.fas.fa-envelope {
+	font-size: 22px;
+	
+}
+.fas.fa-phone {
+	font-size: 22px;
+
+}
+.fab.fa-facebook-square {
+	color: #3a5fa5;
+}
+.fab.fa-youtube-square {
+	color: #3a5fa5;
+}
+.fas.fa-book-open {
+	color: #3a5fa5;
+}
+footer {
+	width: 100%;
+	background-image: url(../images/Footer.png);
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-top: 100px;
+}
+ul.last-nav li a span {
+	color: #35caf0;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1324px) {
+	ul.dropdown li a {
+		font-size: 20px;
+	}
+	.banner-inner h1 {
+		font-size: 45px;
+	}
+	.designation h1 {
+		font-size: 70px;
+	}
+	.gallery-2 h1 {
+		font-size: 80px;
+	}
+	.more-1 {
+		padding-left: 150px;
+
+	}
+	.gallery-3 h1 {
+		padding-left: 65px;
+
+	}
+	.more-2 {
+		padding-left: 65px;
+
+	}
+	.share p {
+		font-size: 33px;
+	}
+	.logo-1 {
+		width: 45%;
+	}
+	ul.nav-social-2 li a {
+		font-size: 22px;
+	}
+	.logo-1 {
+		width: 40%;
+	}
+	ul.nav-social li a {
+		font-size: 30px;
+
+	}
+	ul.link-1 li a {
+		font-size: 17px;
+	}
+	ul.link li a {
+		font-size: 17px;
+	}
 }
