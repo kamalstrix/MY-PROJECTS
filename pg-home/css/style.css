@@ -208,3 +208,28 @@ span:last-child {
 .healping {
 	padding-top: 10px;
 }
+.main-2 {
+	width: 100%;
+}
+.leadership {
+	width: 100%;
+	text-align: center;
+}
+.leadership_one {
+	width: 100%;
+	display: flex;
+}
+.leader_one {
+	width: 33.33%;
+	text-align: center;
+}
+.leadership_one {
+	width: 100%;
+	display: flex;
+}
+.leader_one img {
+	height: 40px;
+}
+.leadership h4 {
+	font-size: 17px;
+}
