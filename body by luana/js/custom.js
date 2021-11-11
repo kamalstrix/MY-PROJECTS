@@ -55,7 +55,7 @@ $('.slick-one').slick({
       breakpoint: 992,
       settings: {
         slidesToShow: 1,
-        dots: true,
+        dots: false,
         arrow:false,
       }
     },
@@ -63,7 +63,7 @@ $('.slick-one').slick({
       breakpoint: 767,
       settings: {
         slidesToShow: 1,
-        dots: true,
+        dots: false,
         arrow:false,
       }
     }

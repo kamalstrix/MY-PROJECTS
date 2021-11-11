@@ -267,7 +267,7 @@ header {
 	margin-top: 40px;
 }
 .appointment h2 {
-	font-size: 26px;
+	font-size: 25px;
 	color: #f26822;
 }
 .appointment p {
@@ -696,6 +696,9 @@ ul.slick-dots {
 	right: 0;
 	bottom: 50px;
 }
+.toggle {
+	display: none;
+}
 
 
 
@@ -838,7 +841,7 @@ ul.slick-dots {
 
 
 
-@media only screen and (max-width: 1024px) {
+ @media only screen and (max-width: 1024px) {
 	.appointment h2 {
 		font-size: 19px;
 	}
@@ -908,4 +911,26 @@ ul.slick-dots {
 	video {
 		width: 345px !important;
 	}
-}
+	.toggle {
+		display: block;
+		position: absolute;
+		right: 0;
+	}
+	.menu {
+		width: 50%;
+		position: relative;
+		display: flex;
+		order: 2;
+	}
+	.social {
+		width: 38%;
+	}
+	.nav_one {
+		position: absolute;
+		width: 100% !important;
+	} 
+	.nav_one li {
+		
+		display: block;
+	}
+} 
