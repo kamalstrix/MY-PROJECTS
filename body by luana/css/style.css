@@ -912,13 +912,11 @@ ul.slick-dots {
 		width: 345px !important;
 	}
 	.toggle {
-		display: block;
-		position: absolute;
+        display: block;
 		right: 0;
 	}
 	.menu {
 		width: 50%;
-		position: relative;
 		display: flex;
 		order: 2;
 	}
@@ -926,7 +924,7 @@ ul.slick-dots {
 		width: 38%;
 	}
 	.nav_one {
-		position: absolute;
+
 		width: 100% !important;
 	} 
 	.nav_one li {
